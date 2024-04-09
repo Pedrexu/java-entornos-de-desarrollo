@@ -15,4 +15,13 @@ class TestAlgoritmos {
         assertEquals(sumaEsperada, sumaObtenida);
     }
 
+    
+    @Test
+    void factorial() {
+        int sumaEsperada = 10;
+        int sumaObtenida = Algoritmos.factorial(4);
+        assertEquals(sumaEsperada, sumaObtenida);
+    }
+    
+    
 }

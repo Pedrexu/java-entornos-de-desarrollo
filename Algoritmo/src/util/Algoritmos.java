@@ -12,5 +12,23 @@ public static int sumatorio(int numero) {
     int suma = 0;
     for (int i = 1; i <= numero; i++) {
         suma += i;}
-    return suma;}
+    return suma;
+}    
+
+
+/**
+ *  Devuelve el factorial del numero especificado
+ * @param numero	El numero del que queremos calcular el factorial
+ * @return			El sumatorio del numero especificado
+ */
+public static int factorial(int numero) {
+	int factorial = 0;
+    for (int i = 1; i <= numero; i++) {
+        factorial *= i;}
+    return factorial;
 }
+
+
+}
+
+
